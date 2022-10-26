@@ -1,9 +1,13 @@
 import React from 'react'
+import Notes from './Notes'
+
 
 function Home() {
+
   return (
-    <div>
-      <h1 className="display-1 text-center">Home Component</h1>
+    <div className="container my-3">
+      
+      <Notes />
     </div>
   )
 }
